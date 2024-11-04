@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    background-color: #ffc107;
+    color: #333;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e0a800;
+}
+
+/* Courses Section */
+.courses {
+    padding: 2em;
+    text-align: center;
+}
+
+.course-grid {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.course-card {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    width: 200px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.course-card img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 2em;
+    text-align: center;
+}
+
+.testimonial {
+    margin-top: 1em;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+/* Features Section */
+.features {
+    padding: 2em;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.feature-item {
+    width: 200px;
+    text-align: center;
+}
+
+.feature-item img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+    border-radius: 50%;
+}
+
+/* Signup Form Section */
+.signup {
+    background-color: #3366cc;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+.signup form {
+    margin-top: 1em;
+}
+
+.signup input {
+    padding: 0.5em;
+    width: 200px;
+    margin-right: 1em;
+}
+
+.signup button {
+    padding: 0.5em 1.5em;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signup button:hover {
+    background-color: #e0a800;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+footer .social-links a {
+    color: #ffc107;
+    margin: 0 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
